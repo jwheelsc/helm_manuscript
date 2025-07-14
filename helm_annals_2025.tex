@@ -1,0 +1,140 @@
+% igs2eannalsguide.tex
+% v4.00 3-sept-2015
+
+\NeedsTeXFormat{LaTeX2e}
+
+% check that the math fits the two-column format:
+% \documentclass[annals,twocolumn]{igs}
+
+% but use this version when submitting your article:
+%  \documentclass[annals,review,oneside]{igs}
+
+% other options are available
+%   authors printing on US letter size are advised 
+%   to use the slightly shorter [letterpaper] option
+% SINGLE COLUMN
+%   \documentclass[annals]{igs}              
+% SINGLE COLUMN, FEWER LINES/PAGE
+%   \documentclass[annals,letterpaper]{igs} 
+% DOUBLE COLUMN, FEWER LINES/PAGE
+   \documentclass[annals,twocolumn,letterpaper]{igs} 
+
+  \usepackage{igsnatbib}
+ \usepackage{amsmath}
+% 
+% check if we are compiling under latex or pdflatex
+  \ifx\pdftexversion\undefined
+    \usepackage[dvips]{graphicx}
+  \else
+    \usepackage[pdftex]{graphicx}
+    \usepackage{epstopdf}
+    \epstopdfsetup{suffix=}
+  \fi
+
+\usepackage{tikz}
+% the default is for unnumbered section heads
+% if you really must have numbered sections, remove
+% the % from the beginning of the following command
+% and insert the level of sections you wish to be
+% numbered (up to 4):
+
+% \setcounter{secnumdepth}{2}
+
+\begin{document}
+
+\title[Deglaciation of Helm]{Helm Glacier projected to vanish within a decade}
+
+\author[gsc]{Jeffrey W. CROMPTON$^1$, Mark EDNIE$^{2}$, Brian MENOUNOS$^{1,2,4}$}
+
+\affiliation{%
+$^1$Geological Survey of Canada, Natural Resources Canada, Vancouver, British Columbia, Canada \\
+$^2$Geological Survey of Canada, Natural Resources Canada, Ottawa, ON, Canada, \\
+$^3$Department of Geography, Earth, and Environmental Science, University of Northern British Columbia, Prince George, British Columbia, Canada \\
+$^4$ Hakai Institute, Campbell River, British Columbia, Canada \\
+}
+
+
+\abstract{Goodbye Helm, thanks for all the ice}
+
+\maketitle
+
+\section{Introduction}
+
+Over the last four years, glaciers in Western Canada and the conterminous US (region 02 of the Randolf Glacier Inventory) lost twice as much mass as during the period 2010-2019  \citep{Menounos2025}. This mass loss occurred primarily through widespread surface thinning driven by warm, dry conditions and general darkening of glacier surfaces. In terms of surface area (RGI ref), Canada is home to over one-quarter of Earth's glaciers.  Given the importance of glacier runoff to Canada's economy, the federal government established a network of glacier monitoring sites during the International Hydrological Decade (IHD) \citep{Ommanney1986}. These sites became operational in 1965 and, ten years, later the Government of Canada added Helm Glacier to its list of monitoring sites \cite{Ommanney2002} given its maritime location. Helm Glacier has become a World Glacier Monitoring Service (WGMS) reference glacier and one of only five alpine glaciers in Canada to have monitoring record which exceeds 40 years.   \emph{In situ} glacier monitoring provides seaonal-to-annual observations required for regional assessments of glacier mass change which primarily rely on spaceborne remote sensing (Zemp's paper). The objectives of this short note is to describe recent changes of Helm Glacier and estimate when the glacier is projected to disappear. 
+
+
+\section{Field site}
+
+Helm Glacier (49$^{\circ}$57’29” N, 122$^{\circ}$59’13” W) is situated near the western edge of Garibaldi Provincial Park in the Pacific Ranges of the southern Coast Mountains in the traditional territory of the Squamish Nation. The glacier currently ranges in elevation from 1780\,m a.s.l. to 2150\,m a.s.l. and is roughly 1.7\,km in length. In 2020, however, ongoing thinning lead to the emergence of nunataks, the lower of which rapidly grew in size over five years to effectively fragment the upper and lower glacier (FIG 1B). The glacier currently terminates in a small proglacial lake that started to form sometime between 1990 and 1995. Meltwater from the proglacial lake drains into Cheakamus Lake, and eventually into Daisy Lake, a water storage reservoir operated by British Columbia Hydro. 
+
+Helm Glacier reached a maximum Holocene extent during the Little Ice Age \citep{Ryder1986}.  Except for minor advances between the late 1960’s and 1970’s, Helm Glacier has been in a continuous state of retreat since the 1910’s and has lost more than 80\% of its surface area as of 2005 \citep{Koch2009}. Tracing of the outlines of Helm Glacier from Landsat 5, 7 and 8 optical imagery shows that the glacier area has lost over 50\% of its surface area from 2005 to present, with a rapid decrease from 0.92 to 0.47\,km$^2$ in 2023. From the onset of monitoring in 1975 to present, the glacier has experienced only five positive mass balance years (CUMULATIVE BALANCE FIGURE?), with the ELA starting to rise above the head of the glacier. Glaciological mass balance data averaged over the past seven years show an annual balance at the terminus of -3.6\,m w.e. and -1.6\,m w.e. at the summit. During that time period, the yearly accumulation averaged over the entire glacier was 1.85\,m w.e. From 1984 to present, Helm glacier has shown the most negative mass balance of all 16 WGMS monitored glaciers in North America \citep{WGMS2024}. Driven by significantly higher than average fall temperatures, the 2023 melt year was a record breaking loss for Helm Glacier, with a glacier wide annual mass balance of -4.34\, m w.e., roughly 2.5 times higher than the average of the previous six years. 
+
+\section{Methods}
+
+\subsection{Ice-penetrating radar}
+
+We completed an ice-penetrating radar survey of Helm Glacier on 21 May, 2025. The Blue Systems Integration Ltd. radar system uses resistively-loaded dipole antennas with a centre frequency of ~10 MHz, has 12-bit resolution and yields a sampling rate of up to 250 Megasamples per second. The radar system contains a single frequency GNSS system with an accuracy of $\pm$5 m. To increase the vertical accuracy for the glacier surface ($\pm$ 0.5\,m), we acquired airborne Lidar for the surface elevation of the glacier on 24 April, 2025. Details about methods used for Lidar acquisition can be found elsewhere \citep{Menounos2025}.  Observations of surface elevation change from a sonic depth ranger equipped with satellite telemetry \cite{Bevington2025a}, reveals about 1\,m of thinning between our Lidar and radar surveys. We processed the radar data with IceRadarAnalyzer 6.3.1, with an antenna spacing of 15\,m and assuming a velocity through ice at 1.68x10$^{8}$ m s$^{-1}$ \citep{Reynolds2011}. To increase the signal-to-noise ratio of the data, we averaged 128 stacks for each trace in the radargram and then applied gain and filtering for identification of bed reflectors. We completed crossover analysis (i.e. where two radar transects overlap) and propagated in quadrature  the uncertainty using one-quarter of the radar wavelength \cite{Reynolds2011} and uncertainty that arises from surface slope to yield an error of ice thickness of $\pm$ 4.5\,m.  2D linear interpolation of the ice thickness data yielded a map of ice thickness (10 m ground sampling distance - gsd ). 
+
+\subsection{Projection of glacier disappearance}
+
+To estimate when Helm Glacier is expected to vanish, we forward model the yearly surface elevation change of Helm Glacier using two approaches described below. Both of these approaches use surface elevation data obtained from repeat Lidar surveys of Helm Glacier completed at the end of ablation season in 2020--2024. These five autumn surveys provide elevation change maps for 2021, 2022, 2023 and 2024.  Those airborne surveys followed the same methods as those used for the 24 April, 2025 survey. As described below, elevation change at a given point can be equated to annual surface mass balance given the thinness of the glacier (i.e. negligible dynamics) and minimal extent of retained snow on the glacier (i.e. density-to-mass conversion is simplified). The elevation change maps are downsampled to 10 m gsd to match the ice thickness grid. Co-registration of elevation change maps used methods described in Nuth et al.,  (\citeyear{Nuth2011}) and Hugonnet et al., (\citeyear{Hugonnet_2022}) available in the XDEM package (https://pypi.org/project/xdem/).
+
+Our first approach averages the surface elevation change at each grid cell over the four year period, then simply differences this average elevation change from the ice thickness grid each year. Ice vanishes at a given grid cell when the total melt exceeds the ice thickness of the column. The error in area is simply taken recomputing the elevation change within the ice thickness error bounds of 4.5\,m. 
+
+For the second approach, we use a regression model to predict elevation change $\mathbf{dh}^{y}$ based on the design matrix of observations $\mathbf{X}^{y}$ for each of the years $j=\{2021,\,2022,\,2023,\,2024\}$ for each of the $n$ grid cells. Linear regression can be used to model mass change at the regional \citep{Lliboutry1974,Anilkumar2023,Reynaud1986} to individual ablation stake scale \citep{Zekollari2018}. The matrix $\mathbf{X}^{y}$ is composed of slope ($\boldsymbol{\theta}^{y}$), orientation ($\boldsymbol{\alpha}^{y}$), positive-degree days ($\mathbf{PDD}^{y}$), shortwave radiation at the surface ($\mathbf{SW_{\downarrow}}^{y}$) and snow depth ($\mathbf{h}^{y}$). The regression $\mathbf{dh} = \mathbf{X} \boldsymbol{\beta} + \boldsymbol{\varepsilon}$ is computed on the matrix $\mathbf{X}$ and observations $\mathbf{dh}$ that are concatenated across the four-year record. The optimal coefficients area estimated through least-squares regression as, $\hat{\boldsymbol{\beta}} = (\mathbf{X}^\top \mathbf{X})^{-1} \mathbf{X}^\top \mathbf{M}$. The model is validated by modelling the surface change for each year individually as $\hat{\mathbf{M}}^{j} = \mathbf{X}^{j} \hat{\boldsymbol{\beta}}$, with the $R^2$ computed between the yearly difference in observed and modelled elevation change at each grid cell. 
+
+PDDs are computed for each time interval as $\mathbf{PDD}^y = \frac{1}{24}\sum T(z)$ for $T>0^{\circ}$C, where temperature ($T$) is taken from dynamically downscaled hourly ERA-5 land temperatures \citep{Hersbach2020} given at the nearest grid point and lapsed up from 1550\,m to the elevation of each grid cell. Similar to the melt-season lapse rate computed by \cite{Shea2009} of -6.0$\mathrm{^{\circ}C\,km^{-1}}$, we calculate April to October lapse rates from a series of nearby weather stations as -5.8$\mathrm{^{\circ}C\,km^{-1}}$. Snow depth is estimated from yearly snow depth observations collected every April at six glacier centreline stake locations . A yearly snow depth field is computed as a function of elevation by linearly interpolating observations to grid cell elevations. Yearly total incoming shortwave radiation is computed my multiplying a shading factor matrix computed in the HORAYZON v1.2 model \citep{Steger2022} with daily averaged downwelling shortwave radiation obtained from the nearest gridpoint of ERA5-Land reanalysis. Although the shading model correct for slope and aspect, we include slope and aspect in the regression model to capture other mass balance processes like snow redistribution.
+
+To forward model the ice loss, we start with the 2024 DEM and force the model with the average of the PDD fields from 2014 to 2024, all computed at the 2024 grid cell elevations. The forcing for $\mathbf{SW_{\downarrow}}$ and the snow depth field $\mathbf{h}$ field  generated from averaging the records from 2020--2024 at each grid cell. At each step forward in time, we recompute the surface elevation, slope, aspect, $\mathbf{PDD}$ field and snow-depth field, but keep $\mathbf{SW_{\downarrow}}$ fixed in time. We estimate uncertainty in elevation change by initializing the ice thickness at the $\pm 4.5$\,m error bounds and by varying the lapse rate by $\pm 5\%$. 
+
+[QUESTIONS]: 
+
+a) what is the time time - yearly?
+b) A reviewer will wonder why we didn't adjust kdown at least for differences in slope and aspect.
+
+
+\section{Results and discussion}
+
+The change in glacier area through time is largely controlled by the basin geometry, as exemplified by the rapid drop in area in the late 1980s as thin ice in the upper basin vanishes (Fig. \ref{area}). Regional trends in accelerated area and mass loss around 2010 \citep{Bevington2022,Menounos2019} and again in 2020 \citep{Menounos2025} cannot be easily distinguished at Helm, though Helm glacier undergoes accelerating area loss that continues from 2014 to present, which does not appear to be controlled by the basin geometry. Moving forward in time, both methods for projecting volume loss indicate that Helm glacier will vanish before 2040 (Figs. \ref{area} and \ref{loss_map}). Helm glacier is forecast to decrease into fragmented patches of less than 0.1 km$^2$ by 2028$\pm0.5$ based on linear regression and 2029$\pm0.5$ based on extrapolation of elevation change. Projected area loss patterns are controlled predominately by the remaining ice thickness rather than elevation, orientation and slope. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=86mm,trim=2.5cm 2cm 2.5cm 2cm, clip=true]
+{figures/area_through_time.pdf}
+\caption{Modelled and observed glacier area change through time. Vertical bars are uncertainty in area as the product of the image resolution and glacier area. Results for the regression analysis (blue line) are bracketed by intializing the model with the error bounds on ice thickness. Error bounds for the elevation change extrapolation (gray line) are not shown, but are similar in spread to the regression uncertainty.}
+\label{area}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=86mm,trim=0cm 4.3cm 0cm 0cm, clip=true]
+{figures/drawing.pdf}
+\caption{Forward model of glacier area and thickness by (a - top panels) extrapolation of mean elevation change field between 2020 and 2024 and (b - bottom panels) multivariate regression.}
+\label{loss_map}
+\end{figure}
+
+A simple extrapolation of the net elevation change field yields a more conservative estimate than the linear regression. The extrapolation is likely more conservative than the regression because surface parameters like slope, orientation and elevation that are updated at each yearly time step in the regression model create a positive feedback in melt rate, which is not captured with the simple extrapolation. For the linear regression, the $R^2$ is 0.83 and $\hat{\boldsymbol{\beta}}$ values are all statistically significant with $p<0.001$, with the exception of $\hat{\boldsymbol{\beta}}$ for $\mathbf{SW_{\downarrow}}$ at $p=0.065$. Given that slope and aspect account for the greatest spatial variation in incoming shortwave radiation, omitting the $\mathbf{SW_{\downarrow}}$ and snow accumulation fields from the design matrix can lead to model fits for the  2020--2021 and 2023-2024 melt years with $R^2\sim0.7$. However, the reanalysis masked shortwave data are needed to adequately model the high melt season of 2022-2023. Similarly, the design matrix needs to include snow accumulation data to adequately fit the high snow accumulation season of 2021-2022. Relative to the uncertainty in ice depth, the regression model shows little sensitivity to a variation in lapse rate of $\pm 5\%$.
+
+%\begin{figure}[H]
+%\centering
+%\includegraphics[width=172mm,trim=2.5cm 2cm 2.5cm 2cm, clip=true]
+%{C:/Users/jcrompto/Documents/writing/Helm/figures/MLR_all_2D.pdf}
+%\caption{}
+%\label{r2}
+%\end{figure}
+
+
+
+
+
+Like most glaciers, Helm glacier exhibits several intricacies that complicate a simple mass balance model or regression approach. For each melt season, modelled surface elevation change is generally underestimated along patches of the eastern margin where avalanche accumulation is exacerbated by valley wall shading. Elevation change is often overestimated at the eastern head of the glacier where snow redistribution by wind causes a reversal of the accumulation gradient. Linearly interpolating and extrapolating snow depth measurements to the snow depth field yields the best $R^2$ averaged across all observation periods, but in cases of extreme years for snow redistribution, a second or third-order polynomial fit can significantly increase the fit at high and low elevations. Despite the uncertainties in ice thickness and nuances in melt, the glacier is thinning so rapidly that capturing the subtleties of melt becomes a moot point when trying to model the timing of extinction. 
+
+The linear regression model is driven by average temperatures over the past decade and an average snow accumulation field. As such, the forward model does not capture extreme melt events observed regionally and at Helm glacier. Examples of events and processes that likely make our projections conservative include the intense melt year of 2023 \citep{Menounos2025}, an equilibrium-line elevation that is starting to rise above the head of the glacier \citep{Bevington2025}, surface darkening from wildfire soot deposition that decreases ice albedo \citep{Menounos2025,AubryWake2022} and proglacial lake development leading to basal melt and calving \citep{Carrivick2013,Shugar2020}. 
+
+\section{Conclusion}
+
+\bibliography{refs}
+\bibliographystyle{igs}
+
+
+\end{document}

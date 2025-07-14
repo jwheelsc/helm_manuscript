@@ -1,0 +1,124 @@
+\begin{thebibliography}{23}
+\providecommand{\natexlab}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[\protect\citename{Anilkumar and others, }2023]{Anilkumar2023}
+Anilkumar R, Bharti R, Chutia D and Aggarwal SP (2023) Modelling point mass
+  balance for the glaciers of the {C}entral {E}uropean {A}lps using machine
+  learning techniques. \emph{The Cryosphere}, \textbf{17}(7), 2811--2828
+
+\bibitem[\protect\citename{Aubry-Wake and others, }2022]{AubryWake2022}
+Aubry-Wake C, Bertoncini A and Pomeroy JW (2022) Fire and ice: The impact of
+  wildfire-affected albedo and irradiance on glacier melt. \emph{Earth's
+  Future}, \textbf{10}(4), e2022EF002685
+
+\bibitem[\protect\citename{Bevington and Menounos, }2022]{Bevington2022}
+Bevington AR and Menounos B (2022) Accelerated change in the glaciated
+  environments of western {C}anada revealed through trend analysis of optical
+  satellite imagery. \emph{Remote Sensing of Environment}, \textbf{270}, 112862
+
+\bibitem[\protect\citename{Bevington and Menounos, }2025]{Bevington2025}
+Bevington AR and Menounos B (2025) Glaciers in western {N}orth {A}merica
+  experience exceptional transient snowline rise over satellite era.
+  \emph{Environmental Research Letters}, \textbf{20}(5), 054044
+
+\bibitem[\protect\citename{Bevington and others, }2025]{Bevington2025a}
+Bevington AR, Menounos B and Ednie M (2025) Satellite telemetry of surface
+  ablation observations to inform spatial melt modelling, {P}lace {G}lacier,
+  {B}ritish {C}olumbia, {C}anada. \emph{EGUsphere}, \textbf{2025}, 1--30
+
+\bibitem[\protect\citename{Carrivick and Tweed, }2013]{Carrivick2013}
+Carrivick JL and Tweed FS (2013) Proglacial lakes: character, behaviour and
+  geological importance. \emph{Quaternary Science Reviews}, \textbf{78}, 34--52
+
+\bibitem[\protect\citename{Hersbach and others, }2020]{Hersbach2020}
+Hersbach H, Bell B, Berrisford P, Hirahara S, Hor{\'a}nyi A, Mu{\~n}oz-Sabater
+  J, Nicolas J, Peubey C, Radu R, Schepers D and others (2020) The {ERA5}
+  global reanalysis. \emph{Quarterly journal of the royal meteorological
+  society}, \textbf{146}(730), 1999--2049
+
+\bibitem[\protect\citename{Hugonnet and others, }2022]{Hugonnet_2022}
+Hugonnet R, Brun F, Berthier E, Dehecq A, Mannerfelt ES, Eckert N and Farinotti
+  D (2022) Uncertainty analysis of digital elevation models by spatial
+  inference from stable terrain. \emph{IEEE Journal of Selected Topics in
+  Applied Earth Observations and Remote Sensing}, \textbf{15}, 6456--6472 (\doi
+  {10.1109/JSTARS.2022.3188922})
+
+\bibitem[\protect\citename{Koch and others, }2009]{Koch2009}
+Koch J, Menounos B and Clague JJ (2009) Glacier change in {G}aribaldi
+  {P}rovincial {P}ark, southern {C}oast {M}ountains, {B}ritish {C}olumbia,
+  since the {L}ittle {I}ce {A}ge. \emph{Global and Planetary Change},
+  \textbf{66}(3-4), 161--178
+
+\bibitem[\protect\citename{Lliboutry, }1974]{Lliboutry1974}
+Lliboutry L (1974) Multivariate statistical analysis of glacier annual
+  balances. \emph{Journal of Glaciology}, \textbf{13}(69), 371--392
+
+\bibitem[\protect\citename{Menounos and others, }2019]{Menounos2019}
+Menounos B, Hugonnet R, Shean D, Gardner A, Howat I, Berthier E, Pelto B,
+  Tennant C, Shea J, Noh MJ and others (2019) Heterogeneous changes in western
+  {N}orth {A}merican glaciers linked to decadal variability in zonal wind
+  strength. \emph{Geophysical Research Letters}, \textbf{46}(1), 200--209
+
+\bibitem[\protect\citename{Menounos and others, }2025]{Menounos2025}
+Menounos B, Huss M, Marshall S, Ednie M, Florentine C and Hartl L (2025)
+  Glaciers in {W}estern {C}anada-conterminous {US} and {S}witzerland experience
+  unprecedented mass loss over the last four years (2021--2024).
+  \emph{Geophysical Research Letters}, \textbf{52}(12), e2025GL115235
+
+\bibitem[\protect\citename{Nuth and K{\"a}{\"a}b, }2011]{Nuth2011}
+Nuth C and K{\"a}{\"a}b A (2011) Co-registration and bias corrections of
+  satellite elevation data sets for quantifying glacier thickness change.
+  \emph{The Cryosphere}, \textbf{5}(1), 271--290
+
+\bibitem[\protect\citename{Ommanney, }1986]{Ommanney1986}
+Ommanney C (1986) Mapping {C}anada’s glaciers since 1965. \emph{Annals of
+  glaciology}, \textbf{8}, 132--134
+
+\bibitem[\protect\citename{Ommanney and others, }2002]{Ommanney2002}
+Ommanney C, Demuth M and Meier M (2002) Glaciers of {N}orth {A}merica. \emph{US
+  Geological Survey Professional Paper}, \textbf{1386}, 23
+
+\bibitem[\protect\citename{Reynaud and others, }1986]{Reynaud1986}
+Reynaud L, Vallon M and Letreguilly A (1986) Mass-balance measurements:
+  problems and two new methods of determining variations. \emph{Journal of
+  Glaciology}, \textbf{32}(112), 446--454
+
+\bibitem[\protect\citename{Reynolds, }2011]{Reynolds2011}
+Reynolds JM (2011) \emph{An introduction to applied and environmental
+  geophysics}. John Wiley \& Sons
+
+\bibitem[\protect\citename{Ryder and Thomson, }1986]{Ryder1986}
+Ryder J and Thomson B (1986) Neoglaciation in the southern {C}oast {M}ountains
+  of {B}ritish {C}olumbia: chronology prior to the late {N}eoglacial maximum.
+  \emph{Canadian Journal of Earth Sciences}, \textbf{23}(3), 273--287
+
+\bibitem[\protect\citename{Shea and others, }2009]{Shea2009}
+Shea JM, Moore RD and Stahl K (2009) Derivation of melt factors from glacier
+  mass-balance records in western {C}anada. \emph{Journal of Glaciology},
+  \textbf{55}(189), 123--130
+
+\bibitem[\protect\citename{Shugar and others, }2020]{Shugar2020}
+Shugar DH, Burr A, Haritashya UK, Kargel JS, Watson CS, Kennedy MC, Bevington
+  AR, Betts RA, Harrison S and Strattman K (2020) Rapid worldwide growth of
+  glacial lakes since 1990. \emph{Nature climate change}, \textbf{10}(10),
+  939--945
+
+\bibitem[\protect\citename{Steger and others, }2022]{Steger2022}
+Steger CR, Steger B and Sch{\"a}r C (2022) {HORAYZON} v1. 2: an efficient and
+  flexible ray-tracing algorithm to compute horizon and sky view factor.
+  \emph{Geoscientific Model Development}, \textbf{15}(17), 6817--6840
+
+\bibitem[\protect\citename{WGMS, }2024]{WGMS2024}
+WGMS (2024) Fluctuations of glaciers database. World Glacier Monitoring
+  Service, Zurich, Switzerland. (\doi {10.5904/wgms-fog-2024-07})
+
+\bibitem[\protect\citename{Zekollari and Huybrechts, }2018]{Zekollari2018}
+Zekollari H and Huybrechts P (2018) Statistical modelling of the surface
+  mass-balance variability of the {M}orteratsch glacier, {S}witzerland: strong
+  control of early melting season meteorological conditions. \emph{Journal of
+  Glaciology}, \textbf{64}(244), 275--288
+
+\end{thebibliography}
