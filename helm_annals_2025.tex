@@ -17,7 +17,7 @@
 % SINGLE COLUMN, FEWER LINES/PAGE
 %   \documentclass[annals,letterpaper]{igs} 
 % DOUBLE COLUMN, FEWER LINES/PAGE
-   \documentclass[annals,twocolumn,letterpaper]{igs} 
+   \documentclass[annals,twocolumn,letterpaper]{igs.cls} 
 
   \usepackage{igsnatbib}
  \usepackage{amsmath}
@@ -100,7 +100,7 @@ The change in glacier area through time is largely controlled by the basin geome
 \begin{figure}[H]
 \centering
 \includegraphics[width=86mm,trim=2.5cm 2cm 2.5cm 2cm, clip=true]
-{figures/area_through_time.pdf}
+{area_through_time.pdf}
 \caption{Modelled and observed glacier area change through time. Vertical bars are uncertainty in area as the product of the image resolution and glacier area. Results for the regression analysis (blue line) are bracketed by intializing the model with the error bounds on ice thickness. Error bounds for the elevation change extrapolation (gray line) are not shown, but are similar in spread to the regression uncertainty.}
 \label{area}
 \end{figure}
@@ -108,7 +108,7 @@ The change in glacier area through time is largely controlled by the basin geome
 \begin{figure}[H]
 \centering
 \includegraphics[width=86mm,trim=0cm 4.3cm 0cm 0cm, clip=true]
-{figures/drawing.pdf}
+{drawing.pdf}
 \caption{Forward model of glacier area and thickness by (a - top panels) extrapolation of mean elevation change field between 2020 and 2024 and (b - bottom panels) multivariate regression.}
 \label{loss_map}
 \end{figure}
@@ -130,6 +130,8 @@ A simple extrapolation of the net elevation change field yields a more conservat
 Like most glaciers, Helm glacier exhibits several intricacies that complicate a simple mass balance model or regression approach. For each melt season, modelled surface elevation change is generally underestimated along patches of the eastern margin where avalanche accumulation is exacerbated by valley wall shading. Elevation change is often overestimated at the eastern head of the glacier where snow redistribution by wind causes a reversal of the accumulation gradient. Linearly interpolating and extrapolating snow depth measurements to the snow depth field yields the best $R^2$ averaged across all observation periods, but in cases of extreme years for snow redistribution, a second or third-order polynomial fit can significantly increase the fit at high and low elevations. Despite the uncertainties in ice thickness and nuances in melt, the glacier is thinning so rapidly that capturing the subtleties of melt becomes a moot point when trying to model the timing of extinction. 
 
 The linear regression model is driven by average temperatures over the past decade and an average snow accumulation field. As such, the forward model does not capture extreme melt events observed regionally and at Helm glacier. Examples of events and processes that likely make our projections conservative include the intense melt year of 2023 \citep{Menounos2025}, an equilibrium-line elevation that is starting to rise above the head of the glacier \citep{Bevington2025}, surface darkening from wildfire soot deposition that decreases ice albedo \citep{Menounos2025,AubryWake2022} and proglacial lake development leading to basal melt and calving \citep{Carrivick2013,Shugar2020}. 
+
+For the sensitivity analysis, the slope dP/dT does not vary as a function of P, but doubles from 0.44 to 0.88 across the range of modelled $\Delta$T. 
 
 \section{Conclusion}
 
