@@ -1,0 +1,126 @@
+%% Use the "review" option when submitting for review.
+%% Removing the "review" option will switch the
+%% manuscript to a two-column layout.
+%%
+%% Use option "jog" for submissions to the Journal of
+%% Glaciology; use "aog" for submission to the Annals
+%% of Glaciology.
+%\documentclass[aog]{igs}
+\documentclass[review,aog]{igs}
+% \documentclass[review,jog]{igs}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{mathabx}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{lscape}
+
+% the default is for unnumbered section heads
+% if you really must have numbered sections, remove
+% the % from the beginning of the following command
+% and insert the level of sections you wish to be
+% numbered (up to 4):
+
+% \setcounter{secnumdepth}{2}
+
+
+% \addbibresource{WB_references.bib}
+% \bibliography{WB_references}
+
+% MAIN MATTER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\title[Deglaciation of Helm]{Supplementary Material to: Helm Glacier projected to vanish within a decade}
+
+\author[gsc]{Jeffrey W. CROMPTON$^1$, Brian MENOUNOS$^{1,3,4}$, Mark EDNIE$^{2}$}
+
+\affiliation{%
+$^1$Geological Survey of Canada, Natural Resources Canada, Vancouver, British Columbia, Canada \\
+$^2$Geological Survey of Canada, Natural Resources Canada, Ottawa, ON, Canada, \\
+$^3$Department of Geography, Earth, and Environmental Science, University of Northern British Columbia, Prince George, British Columbia, Canada \\
+$^4$ Hakai Institute, Campbell River, British Columbia, Canada \\
+}
+
+\maketitle
+
+% \tableofcontents
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% igs2eannalsguide.tex
+% v4.00 3-sept-2015
+
+\NeedsTeXFormat{LaTeX2e}
+
+% check that the math fits the two-column format:
+% \documentclass[annals,twocolumn]{igs}
+
+% but use this version when submitting your article:
+  \documentclass[annals,review,oneside]{igs}
+
+% other options are available
+%   authors printing on US letter size are advised 
+%   to use the slightly shorter [letterpaper] option
+% SINGLE COLUMN
+%   \documentclass[annals]{igs}              
+% SINGLE COLUMN, FEWER LINES/PAGE
+%   \documentclass[annals,letterpaper]{igs} 
+% DOUBLE COLUMN, FEWER LINES/PAGE
+%   \documentclass[annals,twocolumn,letterpaper]{igs} 
+
+  \usepackage{igsnatbib}
+ \usepackage{amsmath}
+% 
+% check if we are compiling under latex or pdflatex
+  \ifx\pdftexversion\undefined
+    \usepackage[dvips]{graphicx}
+  \else
+    \usepackage[pdftex]{graphicx}
+    \usepackage{epstopdf}
+    \epstopdfsetup{suffix=}
+  \fi
+
+\usepackage{tikz}
+% the default is for unnumbered section heads
+% if you really must have numbered sections, remove
+% the % from the beginning of the following command
+% and insert the level of sections you wish to be
+% numbered (up to 4):
+
+% \setcounter{secnumdepth}{2}
+
+\begin{document}
+
+\title[Deglaciation of Helm]{Supplementary Material to: Helm Glacier projected to vanish within a decade}
+
+\author[gsc]{Jeffrey W. CROMPTON$^1$, Brian MENOUNOS$^{1,3,4}$, Mark EDNIE$^{2}$}
+
+\affiliation{%
+$^1$Geological Survey of Canada, Natural Resources Canada, Vancouver, British Columbia, Canada \\
+$^2$Geological Survey of Canada, Natural Resources Canada, Ottawa, ON, Canada, \\
+$^3$Department of Geography, Earth, and Environmental Science, University of Northern British Columbia, Prince George, British Columbia, Canada \\
+$^4$ Hakai Institute, Campbell River, British Columbia, Canada \\
+}
+
+\maketitle
+
+\end{document}
